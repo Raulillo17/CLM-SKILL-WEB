@@ -414,8 +414,8 @@
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title w-100 text-center">Registro de usuario</h5>
+                    <div class="modal-header bg-gris">
+                        <h3 class="modal-title w-100 text-center">Registro de usuario</h3>
                     </div>
                     <div class="modal-body">
                         <form action="#" method="post">
@@ -458,31 +458,29 @@
             </div>
         </div>
         <!-- Modal INICIA SESIÓN -->
-        <div class="modal fade" id="iniciouser" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title w-100 text-center">INICIA SESIÓN</h5>
+        <div class="modal fade" id="iniciouser" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+              <!-- Cambiar el tamaño modal-sm -->
+              <div class="modal-content bg-gris">
+                <!-- Cambiar lo de arriba con el color que sea. Y ponerlo en el css igual -->
+                <h3 class="modal-title w-100 text-center">INICIA SESIÓN</h3>
+                <div class="modal-body bg-blanco m-4 border">
+                  <!-- Meterle borde-->
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Usuario</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                     </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Usuario</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                    placeholder="Introduce tu usuario">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Contraseña</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Introduce tu contraseña">
-                            </div>
-                            <button type="submit" class="btn btn-primary bg-success w-100">ENTRAR</button>
-                        </form>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
+                    <button type="submit" class="btn btn-primary bg-success w-100">ENTRAR</button>
+                  </form>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
 </body>
 
 </html>
