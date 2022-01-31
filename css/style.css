@@ -7,9 +7,32 @@
 .w-100{
     width: 100%;
 }
-.w-100{
-    width: 100%;
-}
+
 .auto{
     margin: 0 auto;
+}
+.sinbordes{
+    text-decoration: none;
+}
+.bg-container{
+    background-color: #f5f9fc;
+}
+.arvicola{
+    background-color: #E5FAE9;
+}
+.bg-tablaimpar{
+    background-color: #D8EDDC;
+}
+.bg-tablapar{
+    background-color: #E5FAE9;
+}
+.w-25{
+    width: 25%;
+}
+.w-70{
+    width: 75%;
+}
+.text-deco{
+    text-decoration: none  ;
+    border: none;    
 }
