@@ -40,3 +40,9 @@
     flex-wrap: nowrap;
     overflow: auto;
 }
+.bg-gris {
+    background-color:  #f5f9fc;
+}
+.bg-blanco {
+    background-color: white;
+}
